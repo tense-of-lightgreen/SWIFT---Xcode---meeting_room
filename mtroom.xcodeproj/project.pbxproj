@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60DBC091E4EC6BD00836C70 /* elist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F60DBC081E4EC6BD00836C70 /* elist.plist */; };
+		F60DBC0D1E51912B00836C70 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60DBC0C1E51912B00836C70 /* PlistManager.swift */; };
+		F689B5CE1E51AA600078BFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689B5CD1E51AA600078BFD4 /* ViewController.swift */; };
 		F6D5FDFA1E4DA961005BEE52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5FDF91E4DA961005BEE52 /* AppDelegate.swift */; };
-		F6D5FDFC1E4DA961005BEE52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5FDFB1E4DA961005BEE52 /* ViewController.swift */; };
 		F6D5FDFF1E4DA961005BEE52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D5FDFD1E4DA961005BEE52 /* Main.storyboard */; };
 		F6D5FE011E4DA961005BEE52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D5FE001E4DA961005BEE52 /* Assets.xcassets */; };
 		F6D5FE041E4DA961005BEE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D5FE021E4DA961005BEE52 /* LaunchScreen.storyboard */; };
+		F6D5FE0E1E4DAA65005BEE52 /* MeetingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5FE0D1E4DAA65005BEE52 /* MeetingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60DBC081E4EC6BD00836C70 /* elist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = elist.plist; sourceTree = "<group>"; };
+		F60DBC0C1E51912B00836C70 /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
+		F689B5CD1E51AA600078BFD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6D5FDF61E4DA961005BEE52 /* mtroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mtroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D5FDF91E4DA961005BEE52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6D5FDFB1E4DA961005BEE52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6D5FDFE1E4DA961005BEE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6D5FE001E4DA961005BEE52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D5FE031E4DA961005BEE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D5FE051E4DA961005BEE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D5FE0D1E4DAA65005BEE52 /* MeetingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				F6D5FDF91E4DA961005BEE52 /* AppDelegate.swift */,
-				F6D5FDFB1E4DA961005BEE52 /* ViewController.swift */,
+				F60DBC0C1E51912B00836C70 /* PlistManager.swift */,
 				F6D5FDFD1E4DA961005BEE52 /* Main.storyboard */,
+				F689B5CD1E51AA600078BFD4 /* ViewController.swift */,
+				F6D5FE0D1E4DAA65005BEE52 /* MeetingTableViewController.swift */,
+				F60DBC081E4EC6BD00836C70 /* elist.plist */,
 				F6D5FE001E4DA961005BEE52 /* Assets.xcassets */,
 				F6D5FE021E4DA961005BEE52 /* LaunchScreen.storyboard */,
 				F6D5FE051E4DA961005BEE52 /* Info.plist */,
@@ -125,6 +134,7 @@
 			files = (
 				F6D5FE041E4DA961005BEE52 /* LaunchScreen.storyboard in Resources */,
 				F6D5FE011E4DA961005BEE52 /* Assets.xcassets in Resources */,
+				F60DBC091E4EC6BD00836C70 /* elist.plist in Resources */,
 				F6D5FDFF1E4DA961005BEE52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D5FDFC1E4DA961005BEE52 /* ViewController.swift in Sources */,
+				F60DBC0D1E51912B00836C70 /* PlistManager.swift in Sources */,
+				F6D5FE0E1E4DAA65005BEE52 /* MeetingTableViewController.swift in Sources */,
+				F689B5CE1E51AA600078BFD4 /* ViewController.swift in Sources */,
 				F6D5FDFA1E4DA961005BEE52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +311,7 @@
 				F6D5FE0A1E4DA961005BEE52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
